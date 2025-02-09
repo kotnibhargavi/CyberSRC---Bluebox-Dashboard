@@ -1,0 +1,58 @@
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  opacity: 0.1;
+}
+
+.purple {
+  background: linear-gradient(135deg, #9c27b0, #673ab7);
+  color: white;
+}
+
+.blue {
+  background: linear-gradient(135deg, #2196f3, #03a9f4);
+  color: white;
+}
+
+.coral {
+  background: linear-gradient(135deg, #ff7043, #ff5722);
+  color: white;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.content h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.increase {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
